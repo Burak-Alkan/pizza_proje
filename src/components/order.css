@@ -1,0 +1,265 @@
+header {
+    background-color: #D32F2F;
+    width: 100%;
+    position: relative;
+    padding: 6rem 0 1.5rem 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#header-container {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+#main-page, #sub-page {
+    color: white;
+}
+
+#sub-page {
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+#wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+hr {
+    margin: 3rem 0;
+    border: 0;
+    border-top: 2px solid #ddd;
+}
+
+#size h3::after,
+#dough h3::after,
+#username h3::after {
+    content: " *";
+    color: #D32F2F;
+    font-weight: bold;
+}
+
+#title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+}
+
+#price {
+    margin-right: 20rem;
+}
+
+#score, #comment-count, #description {
+    color: #757575;
+}
+
+#selection {
+    display: flex;
+    gap: 10rem;
+    margin: 2.5rem 0;
+}
+
+#size div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#size div label {
+    color: #616161;
+    margin-bottom: 1rem;
+}
+
+#dough h3 {
+    text-align: left;
+}
+
+select {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 4px;
+}
+
+#extra h3, #extra p {
+    text-align: left;
+}
+
+#extra p {
+    margin-bottom: 4rem;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #424242;
+}
+
+.container input {
+    display: none;
+}
+
+.checkmark {
+    width: 24px;
+    height: 24px;
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.container:hover .checkmark {
+    background-color: #BDBDBD;
+}
+
+.container input:checked + .checkmark {
+    background-color: #2979FF;
+}
+
+.checkmark::after {
+    content: "✔";
+    color: white;
+    font-size: 16px;
+    display: none;
+}
+
+.container input:checked + .checkmark::after {
+    display: block;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 50px;
+}
+
+#note {
+    text-align: left;
+    margin-top: 4rem;
+}
+
+#username {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 4rem;
+}
+
+#name {
+    width: 180px;
+    height: 22px;
+}
+
+#name-label {
+    font-weight: bold;
+}
+
+#note input {
+    width: 100%;
+    padding: 16px;
+    font-size: 14px;
+    border: 1px solid #BDBDBD;
+    border-radius: 6px;
+    color: #424242;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #FFC107;
+    width: 40%;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+#counter-value {
+    border: 1px solid #BDBDBD;
+    font-size: 18px;
+    font-weight: bold;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-couple {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+#buyout {
+    border: 1px solid #BDBDBD;
+    border-radius: 6px;
+    padding: 20px 35px;
+    background-color: #FAFAFA;
+}
+
+#buyout h3 {
+    font-weight: bold;
+   
+}
+
+#footer-title, #left-title {
+    text-align: left;
+}
+
+#left-col, #right-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+#left-col {
+    color: #616161;
+}
+
+#right-col {
+   
+    margin: 12px 0 18px 0;
+}
+
+#complete-btn {
+    background-color: #FFC107;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    font-weight: bold;
+}

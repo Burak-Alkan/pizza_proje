@@ -1,0 +1,33 @@
+#home-root {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/iteration-1-images/home-banner.png');
+    background-position: center;
+    background-size:cover;
+}
+
+#home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0;
+}
+
+.plain-text {
+    font-size: 54px;
+    color: white;
+}
+  
+#logo {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    width: 18%;
+}
+
+.home-btn {
+    background-color: #FDC913;
+    border-radius: 30px;
+    color: #292929;
+    font-weight: bold;
+    margin-top: 1rem;
+}
