@@ -204,7 +204,7 @@ function Order() {
               </label>
             ))}
           </div>
-        </section>
+          </section>
         <section id="username">
           <h3>İsim Soyisim</h3>
           <input
@@ -218,7 +218,7 @@ function Order() {
           <h3>Sipariş Notu</h3>
           <input
             type="text"
-            placeholder="Siparişinize eklemek istediğiniz bir not var mı?"
+            placeholder="Sipariş notunuz?"
           />
         </section>
         <hr />
