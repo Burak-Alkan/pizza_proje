@@ -140,14 +140,10 @@ function Order() {
             <span id="comment-count">(200)</span>
           </div>
           <p id="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            obcaecati excepturi eaque. Ab quibusdam aliquid quisquam debitis
-            expedita consequatur, assumenda fuga voluptatem suscipit at ea
-            consectetur, voluptatibus minus minima nesciunt porro inventore a
-            maxime labore. Molestias natus molestiae ex iste esse perspiciatis
-            non voluptatibus iure, ratione delectus eaque rem nisi vitae
-            laboriosam. Nesciunt officiis doloribus delectus eligendi,
-            voluptatum unde eveniet.
+          Frontent Dev olarak hala position:absolute kullanıyorsan bu çok acı pizza tam sana göre. 
+          Pizza, domates, peynir ve genellikle çeşitli diğer malzemelerle kaplanmış, daha sonra geleneksel olarak odun ateşinde 
+          bir fırında yüksek sıcaklıkta pişirilen, genellikle yuvarlak, düzleştirilmiş mayalı buğday bazlı hamurdan oluşan İtalyan 
+          kökenli lezzetli bir yemektir. . Küçük bir pizzaya bazen pizzetta denir.
           </p>
         </main>
         <section id="selection">
